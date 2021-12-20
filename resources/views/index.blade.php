@@ -1,47 +1,6 @@
-
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Optienter || La mejor optica del norte || Gafas medicadas</title>
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Otpicenter la mejor optica del norte">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    {{-- CSS --}}
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <!-- Flaticon -->
-    <link rel="stylesheet" href="css/flaticon.css">
-    <!-- optico Icons -->
-    <link rel="stylesheet" href="css/optico-icons.css">
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
-    <!-- Slick Theme -->
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <!-- Pretty Photo -->
-    <link rel="stylesheet" href="css/prettyPhoto.css">
-    <!-- Twentytwenty -->
-    <link rel="stylesheet" href="css/twentytwenty.css">
-    <!-- Shortcode CSS -->
-    <link rel="stylesheet" href="css/shortcode.css">
-    <!-- Base CSS -->
-    <link rel="stylesheet" href="css/base.css">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-
-<body>
-    <!-- page wrapper -->
+   @extends('layouts.main')
+   @section('content')
+   <!-- page wrapper -->
     <div class="page-wrapper">
         <!-- Header Main Area -->
         <header class="site-header header-style-1">
@@ -50,7 +9,7 @@
                     <div class="d-flex justify-content-between  align-items-center">
                         <div class="pre-header-left">
                             <ul class="top-contact">
-                                <li><i class="optico-icon-location-pin"></i>Cra XX # XX XX, Los Andes </li>
+                                <li><i class="optico-icon-location-pin"></i>CRA 1D BIS # 61A - 94 </li>
                             </ul>
                         </div>
                         <div class="pre-header-right">
@@ -134,9 +93,9 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-xl-6 col-lg-7 col-md-7  col-sm-8 col-8">
-                                            <span class="shapewrapper-inner anim-1">ESPECIALISTA EN CUIDADO DE LOS OJOS</span>
-                                            <h1 class="anim-2">Servicio que te hará <br/><strong>vernos con nuevos ojos</strong></h1>
-                                            <div class="tagline anim-3 d-none d-sm-block">Brindamos siempre nuestros mejores servicios</div>
+                                            <span class="shapewrapper-inner anim-1">Material de calidad</span>
+                                            <h1 class="anim-2">Dale la comodidad y la seguridad <br/><strong>que tus ojos necesitan.</strong></h1>
+                                            <div class="tagline anim-3 d-none d-sm-block">Garantia en todos nuestros productos</div>
                                             <div class="d-none d-sm-block mt-4"><a href="#" class="btn anim-3">llamanos </a></div>>
                                         </div>
                                     </div>
@@ -170,7 +129,7 @@
                                             <h2>Cuidado de los ojos</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Enhancing Your Vision sit ametcon sec tetur adipisicing eiusmod tempor incididunt ut.</p>
+                                            <p>Mejoramos tu visión y tu calidad de vida, con nuestras gafas medicadas   .</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +146,7 @@
                                             <h2>Niños</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Caring Your Eyes is important sec tetur adipisicing elit, sed do important sec tetur adipisicing.</p>
+                                            <p>Cuida tus niños asi como lo hacemos nosotros, la mejor atención para ellos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +163,7 @@
                                             <h2>Marcos</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Keep calm dolor sit ametcon sec tetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+                                            <p>Gran variedad disponible para elegir: colores, marcas, tamaños. lo mejor y a la moda.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +180,7 @@
                                             <h2>¿Consulta gratuita?</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Enhancing Your Vision ametcon sec tetur adipisicing looking sit ametcon adipisicing.</p>
+                                            <p>Consulta gratuita para el examen previo, si se compran los lentes.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -237,15 +196,28 @@
                 <div class="container">
                     <div class="row align-items-lg-center align-items-md-end">
                         <div class="col-md-12 col-lg-6">
-                            <img src="images/img-01-new.png" class="img-fluid" alt="" />
+                            <img src="images/img-01-new.png" class="img-fluid" alt="optometria para niños" />
                         </div>
                         <div class="col-md-12 col-lg-6 mt-sm-30 pb-50">
                             <div class="section-title mt-md-50">
                                 <h4 class="subheading skincolor">BIENVENIDO A OPTICENTER</h4>
                                 <h2>PRESERVAMOS, MEJORAMOS Y  <strong> PROTEGEMOS SU VISIÓN</strong></h2>
                             </div>
-                            <p>No eres nada sin tus ojos, <a class="opt-underline-dotted" href="#">consectetur adipisicing elit,</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                            <p><a class="opt-underline-dotted" href="#">Cuida tus ojos,</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.</p>
+                            <p>
+                                No eres nada sin tus ojos, 
+                                <a class="opt-underline-dotted"
+                                    href="https://www.masvision.es/blog/salud-visual/10-consejos-prevenir-miopia/"
+                                    target="_blank">
+                                    protegelos
+                                </a>
+                               con habitos saludables, visitanos y recibe los mejores tips y cuidados de opticenter.
+                            </p>
+                            <p>
+                                <a class="opt-underline-dotted" 
+                                    href="https://www.infosalus.com/salud-investigacion/noticia-diez-consejos-cuidar-vista-20150216135142.html"
+                                    target="_blank">
+                                    Cuida tus ojos,
+                                </a> lo hacemos por ti, para que veas y te sientas bien.</p>
                             <div class="d-none d-sm-block mt-4"><a href="#" class="btn anim-3">BUTTON </a></div>
                         </div>
                     </div>
@@ -261,7 +233,11 @@
                             <div class="section-title with-lead">
                                 <h4 class="subheading skincolor">SU VISIÓN ES NUESTRA VISIÓN</h4>
                                 <h2>NO SOLO ATENCIÓN, SINO<strong> UNA <br/>MEJOR EXPERIENCIA DE ATENCIÓN</strong></h2>
-                                <div class="lead">Eyecare Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit consequat ipsum.</div>
+                                <div class="lead">
+                                    Estamos pendientes antes y despues del proceso ocular, siempre atentos a las 
+                                    preguntas de nuestros clientes, acompañamiento constante durante el proceso,
+                                    asesoria y precios accesibles.
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
@@ -272,7 +248,7 @@
                                                     <h2>Médicos Calificados</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>Enhancing Your Vision sit dolor sitametcon sec tetur adipisicing.</p>
+                                                    <p>Expertos dedicados al cuidado y proteccion ocular.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -286,7 +262,7 @@
                                                     <h2>Equipamiento moderno</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>Wake Up with dolor sit ametcon sec tetur adipisicing elit,sed do.</p>
+                                                    <p>Marcos de excelente calidad, diversos para damas y caballeros.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -302,7 +278,7 @@
                                                     <h2>Ayuda de emergencia</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>Get better looking sit ametcon sec tetur adipisicing elit,sed do.</p>
+                                                    <p>clinicas para tratamientos quirurjicos oftalmologicos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -316,19 +292,16 @@
                                                     <h2>Enfoque individual</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>Enhancing Your Vision ametcon sec tetur adipisicing elit,sed do.</p>
+                                                    <p>Personalice sus lentes y adquiera la protección que necesitas.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="link-btn">
-                                <a class="skincolor" href="#">Read more<i class="fa fa-arrow-circle-right"></i></a>
-                            </div>
                         </div>
                         <div class="col-lg-6 mt-md-30 text-md-center mb-lg-30">
-                            <img src="images/01.jpg" class="img-fluid img-shadow" alt="" />
+                            <img src="images/01.jpg" class="img-fluid img-shadow" alt="viendo full" />
                         </div>
                     </div>
                 </div>
@@ -341,12 +314,17 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="play-video align-items-center d-flex white-color">
-                                <a href="https://www.youtube.com/watch?v=1fBQHunYvkE" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
-                                <h4>See our video</h4>
+                                <a 
+                                    target="_blank"
+                                    href="https://www.youtube.com/watch?v=smhKRoLLvDQ&list=PL5n65gEBgEz3r2V_Stvaqe9UxS87XfSOR&index=2"
+                                >
+                                    <i class="themifyicon ti-control-play"></i>
+                                </a>
+                                <h4>Más allá de los lentes</h4>
                             </div>
                             <div class="section-title section-title-white pt-4 mt-2">
-                                <h4 class="subheading">WHY CHOOSE US</h4>
-                                <h2>EYE CARE SERVICES FOR<strong> CHILDRENS AND ADULTS</strong></h2>
+                                <h4 class="subheading">POR QUÉ ELEGIRNOS</h4>
+                                <h2>CALIDAD EN NUESTROS<strong> MARCOS Y LENTES</strong></h2>
                             </div>
                         </div>
                         <div class="col-lg-6 mt-4 pt-3">
@@ -354,7 +332,7 @@
                                 <div class="col-md-4">
                                     <div class="db-fid inside db-fid-boxstyle-style2 db-fidbox-style-2">
                                         <div class="db-fld-contents">
-                                            <div class="db-circle-outer" data-digit="80" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
+                                            <div class="db-circle-outer" data-digit="97" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
                                                 <div class="db-circle-w">
                                                     <div class="db-circle"></div>
                                                     <div class="db-circle-overlay">
@@ -362,7 +340,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="db-fid-title-w">
-                                                    <h3 class="db-fid-title"><span>Expert Doctor</span></h3>
+                                                    <h3 class="db-fid-title"><span>Doctores Expertos</span></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -371,7 +349,7 @@
                                 <div class="col-md-4">
                                     <div class="db-fid inside db-fid-boxstyle-style2 db-fidbox-style-2">
                                         <div class="db-fld-contents">
-                                            <div class="db-circle-outer" data-digit="90" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
+                                            <div class="db-circle-outer" data-digit="99" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
                                                 <div class="db-circle-w">
                                                     <div class="db-circle"></div>
                                                     <div class="db-circle-overlay">
@@ -379,7 +357,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="db-fid-title-w">
-                                                    <h3 class="db-fid-title"><span>Quality Work</span></h3>
+                                                    <h3 class="db-fid-title"><span>Trabajo de calidad</span></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -388,7 +366,7 @@
                                 <div class="col-md-4">
                                     <div class="db-fid inside db-fid-boxstyle-style2 db-fidbox-style-2">
                                         <div class="db-fld-contents">
-                                            <div class="db-circle-outer" data-digit="70" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
+                                            <div class="db-circle-outer" data-digit="95" data-fill="#fff" data-before="" data-before-type="sup" data-after="<sub>%</sub>" data-after-type="sub" data-size="145" data-emptyfill="#000301" data-thickness="7" data-gradient="">
                                                 <div class="db-circle-w">
                                                     <div class="db-circle"></div>
                                                     <div class="db-circle-overlay">
@@ -396,7 +374,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="db-fid-title-w">
-                                                    <h3 class="db-fid-title"><span>Dedicated Team</span></h3>
+                                                    <h3 class="db-fid-title"><span>Equipo dedicado</span></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -415,8 +393,8 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8">
                             <div class="section-title text-center">
-                                <h4 class="subheading skincolor">OUR SERVICES</h4>
-                                <h2>A WIDE RANGE OF<strong><br/> OPTOMETRY SERVICES.</strong></h2>
+                                <h4 class="subheading skincolor">NUESTROS SERVICIOS</h4>
+                                <h2>UNA AMPLIA GAMA DE<strong><br/> SERVICIOS DE OPTOMETRÍA</strong></h2>
                             </div>
                         </div>
                     </div>
@@ -430,12 +408,9 @@
                                 </div>
                                 <div class="service-content">
                                     <div class="service-inner">
-                                        <h3 class="service-box-title"><a href="service-detail.html">Paeditaric Ophthalmology</a></h3>
+                                        <h3 class="service-box-title"><b>Oftalmología Pediátrica</b></h3>
                                         <div class="service-desc">
-                                            <p>If you got eyes sit ametcon sec tetur adipisicing.</p>
-                                        </div>
-                                        <div class="link-btn">
-                                            <a class="skincolor" href="#">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                            <p>Examenes, Cirugias, Diagnósticos, Leciones, Recetas y Fórmulas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -450,12 +425,9 @@
                                 </div>
                                 <div class="service-content">
                                     <div class="service-inner">
-                                        <h3 class="service-box-title"><a href="service-detail.html">Surgical Procedures</a></h3>
+                                        <h3 class="service-box-title"><b>Procedimientos quirúrgicos</b></h3>
                                         <div class="service-desc">
-                                            <p>Enhancing Your Vision sit ametcon sec tetur adipisicing.</p>
-                                        </div>
-                                        <div class="link-btn">
-                                            <a class="skincolor" href="#">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                            <p>Vitrectomía, Láser y Crioterapia, Cerclaje escleral, Retinopexia neumática, etc.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -470,12 +442,9 @@
                                 </div>
                                 <div class="service-content">
                                     <div class="service-inner">
-                                        <h3 class="service-box-title"><a href="service-detail.html">Transitions Lenses</a></h3>
+                                        <h3 class="service-box-title"><b>Lentes Transitions</b></h3>
                                         <div class="service-desc">
-                                            <p>Caring Your Eyes is important sec tetur adipisicing.</p>
-                                        </div>
-                                        <div class="link-btn">
-                                            <a class="skincolor" href="#">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                            <p>Lentes que se adaptan automáticamente a los cambios de luz</p>
                                         </div>
                                     </div>
                                 </div>
@@ -492,8 +461,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h4 class="subheading skincolor">GET APPOINTMENT</h4>
-                                <h2 class="white-color">GET THE RIGHT OPTOMETRIST<strong><br/> CARE BOOK WITH YOUR DOCTOR</strong></h2>
+                                <h4 class="subheading skincolor">PEDIR CITA</h4>
+                                <h2 class="white-color">RESERVA<strong><br/>LA CITA CON UN DOCTOR</strong></h2>
                             </div>
                         </div>
                     </div>
@@ -506,28 +475,61 @@
                         <div class="col-lg-4 appointment-image">
                         </div>
                         <div class="col-lg-8 appointment-inner">
-                            <h3>Please call +18003838890 if urgent</h3>
-                            <p>your personal case manager will ensure thate you receive the best possible care</p>
+                            <h3>Nos comunicaremos con usted lo más pronto posible.</h3>
+                            <p>Le avisaremos por cualquier canal de comunicación que nos suministres.</p>
                             <div class="contact-form">
-                                <form>
+                                <form id="formy">
                                     <div class="form-row">
                                         <div class="form-group col-lg-6">
-                                            <input id="name" type="text" class="form-control" placeholder="Your Name" name="Your-Name">
+                                            <input 
+                                                id="name"
+                                                type="text" 
+                                                class="form-control"
+                                                placeholder="Nombre" 
+                                                name="Your-Name"
+                                            >
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="email" class="form-control" placeholder="Your Email" name="email" type="email" value="" aria-required="true">
+                                            <input 
+                                                id="email"
+                                                type="email"
+                                                class="form-control" 
+                                                placeholder="Correo Electronico"
+                                                name="email" aria-required="true"
+                                            >
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="phone" type="text" class="form-control" placeholder="Your Phone" name="your-phone">
+                                            <input
+                                                id="phone"
+                                                type="number"
+                                                class="form-control" 
+                                                placeholder="Telefono" 
+                                                name="your-phone"
+                                            >
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="subject" type="text" class="form-control" placeholder="subject" name="subject">
+                                            <input 
+                                                id="subject"
+                                                type="text"
+                                                class="form-control" 
+                                                placeholder="Asunto"
+                                                name="subject"
+                                            >
                                         </div>
                                         <div class="form-group col-lg-12">
-                                            <textarea id="comment" class="form-control" placeholder="Message" name="message" cols="45" rows="5" aria-required="true"></textarea>
+                                            <textarea 
+                                                id="comment"
+                                                class="form-control"
+                                                placeholder="Message"
+                                                name="message" 
+                                                cols="45" 
+                                                rows="5" 
+                                                aria-required="true"
+                                                style="resize: none;"
+                                            ></textarea>
                                         </div>
                                         <div class="form-group col-lg-12">
-                                            <a href="#" class="btn">SEND MESSAGE</a>
+                                            <button type="submit" class="btn">Envia mensaje</button>
                                         </div>
                                     </div>
                                 </form>
@@ -546,10 +548,19 @@
                             <div class="counter counter-style-1">
                                 <div class="fld-contents">
                                     <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="168" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">168</span>
+                                        <span 
+                                            data-appear-animation="animateDigits" 
+                                            data-to="10" 
+                                            data-interval="1"
+                                            data-from="0"
+                                            data-before="" 
+                                            data-before-style="" 
+                                            data-after="" 
+                                            data-after-style=""
+                                        >
                                     </h4>
                                     <h6 class="counter-title">
-                                        <span>year of experiencs</span>
+                                        <span>Años de experiencia</span>
                                     </h6>
                                 </div>
                             </div>
@@ -558,10 +569,20 @@
                             <div class="counter counter-style-1">
                                 <div class="fld-contents">
                                     <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="12" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">12</span>
+                                        <span 
+                                            data-appear-animation="animateDigits" 
+                                            data-to="800" 
+                                            data-interval="5"
+                                            data-from="0"
+                                            data-before="" 
+                                            data-before-style="" 
+                                            data-after="" 
+                                            data-after-style=""
+                                        >
+                                        </span>
                                     </h4>
                                     <h6 class="counter-title">
-                                        <span>awad by GOV</span>
+                                        <span>Marcos</span>
                                     </h6>
                                 </div>
                             </div>
@@ -570,10 +591,20 @@
                             <div class="counter counter-style-1">
                                 <div class="fld-contents">
                                     <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="368" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">368</span>
+                                        <span 
+                                            data-appear-animation="animateDigits" 
+                                            data-to="6" 
+                                            data-interval="1"
+                                            data-from="0"
+                                            data-before="" 
+                                            data-before-style="" 
+                                            data-after="" 
+                                            data-after-style=""
+                                        >
+                                        </span>
                                     </h4>
                                     <h6 class="counter-title">
-                                        <span>Diffrent Services</span>
+                                        <span>Servicios Diferentes</span>
                                     </h6>
                                 </div>
                             </div>
@@ -582,10 +613,20 @@
                             <div class="counter counter-style-1">
                                 <div class="fld-contents">
                                     <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="1000" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">1000</span>
+                                        <span 
+                                            data-appear-animation="animateDigits" 
+                                            data-to="1600" 
+                                            data-interval="5"
+                                            data-from="0"
+                                            data-before="" 
+                                            data-before-style="" 
+                                            data-after="" 
+                                            data-after-style=""
+                                        >
+                                        </span>
                                     </h4>
                                     <h6 class="counter-title">
-                                        <span>Happy Patients</span>
+                                        <span>Pacientes Felices</span>
                                     </h6>
                                 </div>
                             </div>
@@ -594,155 +635,6 @@
                 </div>
             </section>
             <!-- Counter end -->
-
-            <!-- Post & Testimonial -->
-            <section class="section-md bg-lightgrey">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="our-blog pr-3 mr-4 mr-md-0">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="section-title">
-                                            <h4 class="subheading skincolor">RECENT NEWS</h4>
-                                            <h2>WHAT'S GOING ON<strong><br/> IN OUR BLOG?</strong></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="blog-box blog-style-3 d-flex mb-4">
-                                            <div class="blog-thumbnail">
-                                                <img src="images/blog/blog-02.jpg " class="img-fluid" alt="">
-                                            </div>
-                                            <div class="blog-content">
-                                                <div class="blog-entry-meta">
-                                                    <ul class="list-inline">
-                                                        <li class="blog-category"><a class="url fn n" href="#">Paediatric</a></li>
-                                                        <li class="blog-date"><i class="optico-icon-clock"></i><a href="#">February 18, 2018</a></li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="blog-box-title"><a href="blog-detail.html">That’s why it is so important to see an ophthalmologist</a></h4>
-                                                <div class="blog-desc">
-                                                    <p>Eyecare Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="blog-box blog-style-3 d-flex mb-4">
-                                            <div class="blog-thumbnail">
-                                                <img src="images/blog/blog-02.jpg " class="img-fluid" alt="">
-                                            </div>
-                                            <div class="blog-content">
-                                                <div class="blog-entry-meta">
-                                                    <ul class="list-inline">
-                                                        <li class="blog-category"><a class="url fn n" href="#">Paediatric</a></li>
-                                                        <li class="blog-date"><i class="optico-icon-clock"></i><a href="#">January 21, 2018</a></li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="blog-box-title"><a href="blog-detail.html">Signs or risk factors for eye disease</a></h4>
-                                                <div class="blog-desc">
-                                                    <p>Eyecare Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 skin-bg-color testimonial-box mt-md-30">
-                            <div class="section-title section-title-white white-color">
-                                <h4 class="subheading">TESTIMONIALS</h4>
-                                <h2>WHAT OUR<strong><br/> PATIENT’S TALKING ?</strong></h2>
-                            </div>
-                            <div class="slick-carousel dots-right mb-0" data-autoplay="true" data-dots="true" data-arrows="false" data-slides="1" data-tslides="1" data-islides="1">
-                                <!-- Slide1 -->
-                                <div class="testimonialbox testimonialbox-style-2">
-                                    <div class="testimonialbox-content">
-                                        <div class="testimonialbox-desc">
-                                            <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
-                                        </div>
-                                        <div class="testimonialbox-wrap">
-                                            <div class="testimonialbox-thumbnail">
-                                                <img src="images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="testimonialbox-author">
-                                                <h3 class="author-name">Victoria Porter</h3>
-                                                <span>CEO at Google INC</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Slide2 -->
-                                <div class="testimonialbox testimonialbox-style-2">
-                                    <div class="testimonialbox-content">
-                                        <div class="testimonialbox-desc">
-                                            <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
-                                        </div>
-                                        <div class="testimonialbox-wrap">
-                                            <div class="testimonialbox-thumbnail">
-                                                <img src="images/testimonial/testimonial-02.jpg" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="testimonialbox-author">
-                                                <h3 class="author-name">Maria Flynn</h3>
-                                                <span>CEO at Google INC</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Slide3 -->
-                                <div class="testimonialbox testimonialbox-style-2">
-                                    <div class="testimonialbox-content">
-                                        <div class="testimonialbox-desc">
-                                            <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
-                                        </div>
-                                        <div class="testimonialbox-wrap">
-                                            <div class="testimonialbox-thumbnail">
-                                                <img src="images/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="testimonialbox-author">
-                                                <h3 class="author-name">Gina Kennedy</h3>
-                                                <span>CEO at Google INC</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Post & Testimonial end -->
-
-            <!-- Client -->
-                <div class="client-style section-md">
-                    <div class="container">
-                        <div class="row">
-                             <div class="col-lg-12">
-                                  <div class="slick-carousel dots-right" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="5" data-tslides="3" data-islides="1">
-                                    <div class="text-center " data-tooltip="Client 1">
-                                        <img class="logo-img" alt="Client 1" src="images/client/client-01.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 2">
-                                        <img class="logo-img" alt="Client 2" src="images/client/client-02.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 3">
-                                        <img class="logo-img" alt="Client 3" src="images/client/client-03.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 4">
-                                        <img class="logo-img" alt="Client 4" src="images/client/client-04.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 5">
-                                        <img class="logo-img" alt="Client 5" src="images/client/client-05.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 6">
-                                        <img class="logo-img" alt="Client 6" src="images/client/client-06.png" />
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-              </div> 
-            <!-- Client end -->
     </div>
     <!-- page content End -->
 
@@ -759,7 +651,12 @@
                                 </div>
                                 <div class="iconbox-contents">
                                     <div class="iconbox-title">
-                                            <h2>If you Have Any Questions Schedule an Appointment <strong>With Our Doctor OR Call Us On (010)123-456-7890</strong>
+                                            <h2>
+                                                Si tienes alguna pregunta, duda o inquietud
+                                                <strong>
+                                                    puedes mandarnos un mensaje o incluso pedir la cita
+                                                    via whatsapp.
+                                                </strong>
                                             </h2>
                                         </div>
                                 </div>
@@ -767,7 +664,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mt-md-30 text-lg-right">
-                        <a href="#" class="btn btn-dark">Make an Appointment</a>
+                        <a href="#" class="btn btn-dark">Cita whatsapp</a>
                     </div>
                 </div>
             </div>
@@ -789,7 +686,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-sm-30">
-                    <h6 class="footer-widget-title">Usefull Links</h6>
+                    <h6 class="footer-widget-title">Marcos</h6>
                     <ul class="list-unstyled footer-link-list">
                         <li><a href="#">Make Appointments</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -800,22 +697,22 @@
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-md-30">
-                    <h6 class="footer-widget-title">Our Services</h6>
+                    <h6 class="footer-widget-title">Nuestros Servicios</h6>
                     <ul class="list-unstyled footer-link-list">
-                        <li><a href="#">Glaucoma Surgery</a></li>
-                        <li><a href="#">Laser Eye Surgery</a></li>
-                        <li><a href="#">Cataract Surgery</a></li>
-                        <li><a href="#">Vision Correction</a></li>
-                        <li><a href="#">Oculoplastic Surgery</a></li>
-                        <li><a href="#">Vitreo Retinal Surgery</a></li>
+                        <li><a href="#">Lentes Transitions</a></li>
+                        <li><a href="#">Cirugía ocular con láser</a></li>
+                        <li><a href="#">Corrección de la visión</a></li>
+                        <li><a href="#">Examenes y valoraciones</a></li>
+                        <li><a href="#">Lentes Antireflejo</a></li>
+                        <li><a href="#">Convenios Empresariales</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 address-box mt-md-30">
-                    <h6 class="footer-widget-title">Get In Touch</h6>
+                    <h6 class="footer-widget-title">Encuentranos</h6>
                     <div class="d-flex">
                         <i class="optico-icon-location-pin"></i>
-                        <p><strong>OPTICO EYE HOSPITAL</strong>
-                            <br/>Lorance 542B, Tailstoi Town 5248 MT, Wordwide Country</p>
+                        <p><strong>OPTICENTER</strong>
+                            <br/>CRA 1D BIS #61A - 94</p>
                     </div>
                     <div class="d-flex">
                         <i class="optico-icon-mobile"></i>
@@ -823,25 +720,20 @@
                     </div>
                     <div class="d-flex">
                         <i class="optico-icon-comment-1"></i>
-                        <p>info@example.com</p>
+                        <p>info@opticenter.com</p>
                     </div>
                     <div class="d-flex">
                         <i class="optico-icon-clock"></i>
-                        <p>Mon to Sat - 9:00am to 6:00pm</p>
+                        <p>Lun - Sab 8.00 AM - 5:00 PM</p>
                     </div>
                 </div>
             </div>
             <div class="bottom-footer">
                 <div class="row">
-                    <div class="col-sm-6">
-                        Copyright © 2021 <a href="https://overweb.com.co">Overweb</a>. All rights reserved.
-                    </div>
-                    <div class="col-sm-6 text-lg-right text-md-right text-sm-left">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#">About Us</a></li>
-                            <li class="list-inline-item"><a href="#">Services</a></li>
-                            <li class="list-inline-item"><a href="#">Privacy</a></li>
-                        </ul>
+                    <div class="col-sm-12 text-center">
+                        Copyright © 2021 
+                        <a href="https://overweb.com.co" target="_blank">OVERWEB</a>
+                        . All rights reserved.
                     </div>
                 </div>
             </div>
@@ -872,13 +764,13 @@
     <!-- Popper JS -->
     <script src="js/popper.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script async src="js/bootstrap.min.js"></script>
     <!-- jquery Waypoints JS -->
     <script src="js/jquery-waypoints.js"></script>
     <!-- jquery Appear JS -->
     <script src="js/jquery.appear.js"></script>
     <!-- Numinate JS -->
-    <script src="js/numinate.min.js"></script>
+    <script async src="js/numinate.min.js"></script>
     <!-- Slick JS -->
     <script src="js/slick.min.js"></script>
     <!-- PrettyPhoto JS -->
@@ -891,6 +783,6 @@
     <script src="js/jquery.twentytwenty.js"></script>
     <!-- Scripts JS -->
     <script src="js/scripts.js"></script>
-</body>
-
-</html>
+    {{-- Form --}}
+    <script defer src={{ asset('js/forms/citas/agenda.js') }}></script>
+    @endsection
