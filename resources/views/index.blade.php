@@ -55,10 +55,14 @@
                                 <li><i class="optico-icon-clock"></i>Lun - Sab 8.00 AM - 5:00 PM </li>
                             </ul>
                             <ul class="social-icons d-inline">
-                                <li><a target="_blank" href="#" data-tooltip="Facebook"><i class="optico-icon-facebook"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="Twitter"><i class="optico-icon-twitter"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="Flickr"><i class="optico-icon-flickr"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="LinkedIn"><i class="optico-icon-linkedin"></i></a></li>
+                                <li>
+                                    <a target="_blank" 
+                                        href="https://www.instagram.com/opticenteroficial/" 
+                                        data-tooltip="Instagram"
+                                    >
+                                        <i class="optico-icon-instagram"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -92,7 +96,7 @@
                                 </div>
                                 <div class="menu-right-box d-flex align-items-center">
                                     <div class="header-button">
-                                        <a href="#" class="btn btn-outline">cita</a>
+                                        <a href="#cita" class="btn btn-outline">cita</a>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +123,9 @@
                                             <span class="shapewrapper-inner anim-1">ESPECIALISTA EN CUIDADO DE LOS OJOS</span>
                                             <h1 class="anim-2">Servicio que te hará <br/><strong>vernos con nuevos ojos</strong></h1>
                                             <div class="tagline anim-3 d-none d-sm-block">Brindamos siempre nuestros mejores servicios</div>
-                                            <div class="d-none d-sm-block mt-4"><a href="#" class="btn anim-3">Whatsapp </a></div>
+                                            <div class="d-none d-sm-block mt-4">
+                                                <a href="https://wa.me/573174117065" target="_blank" class="btn anim-3">Whatsapp </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -134,7 +140,9 @@
                                             <span class="shapewrapper-inner anim-1">Material de calidad</span>
                                             <h1 class="anim-2">Dale la comodidad y la seguridad <br/><strong>que tus ojos necesitan.</strong></h1>
                                             <div class="tagline anim-3 d-none d-sm-block">Garantia en todos nuestros productos</div>
-                                            <div class="d-none d-sm-block mt-4"><a href="#" class="btn anim-3">llamanos </a></div>>
+                                            <div class="d-none d-sm-block mt-4">
+                                                <a href="tel:3174117065" class="btn anim-3">llamanos </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -256,7 +264,14 @@
                                     target="_blank">
                                     Cuida tus ojos,
                                 </a> lo hacemos por ti, para que veas y te sientas bien.</p>
-                            <div class="d-none d-sm-block mt-4"><a href="#" class="btn anim-3">BUTTON </a></div>
+                            <div class="d-none d-sm-block mt-4">
+                                <a  href="https://www.google.com/maps/place/Opticenter/@3.4739793,-76.495721,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a87fc3b56b2f:0x1f6deaf194d84ef5!8m2!3d3.4739793!4d-76.4935323" 
+                                    class="btn anim-3"
+                                    target="_blank"    
+                                >
+                                    Visitanos
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -426,7 +441,7 @@
             <!-- Why Choose Us end -->
 
             <!-- Our Service -->
-            <section class="section-md">
+            <section class="section-md" id="services">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-8">
@@ -494,7 +509,7 @@
             <!-- Our Service end -->
 
             <!-- Appointment -->
-            <section class="get-appointment">
+            <section id="cita" class="get-appointment">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
@@ -524,7 +539,9 @@
                                                 type="text" 
                                                 class="form-control"
                                                 placeholder="Nombre" 
-                                                name="Your-Name"
+                                                name="name"
+                                                required
+                                                minlength="4"
                                             >
                                         </div>
                                         <div class="form-group col-lg-6">
@@ -534,6 +551,8 @@
                                                 class="form-control" 
                                                 placeholder="Correo Electronico"
                                                 name="email" aria-required="true"
+                                                required
+                                                minlength="10"
                                             >
                                         </div>
                                         <div class="form-group col-lg-6">
@@ -543,15 +562,18 @@
                                                 class="form-control" 
                                                 placeholder="Telefono" 
                                                 name="your-phone"
+                                                required
                                             >
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input 
-                                                id="subject"
-                                                type="text"
-                                                class="form-control" 
-                                                placeholder="Asunto"
-                                                name="subject"
+                                            <input
+                                            id="subject"
+                                            type="text"
+                                            class="form-control" 
+                                            placeholder="Asunto" 
+                                            name="subject"
+                                            required
+                                            minlength="4"
                                             >
                                         </div>
                                         <div class="form-group col-lg-12">
@@ -564,6 +586,8 @@
                                                 rows="5" 
                                                 aria-required="true"
                                                 style="resize: none;"
+                                                required
+                                                maxlength="5000"
                                             ></textarea>
                                         </div>
                                         <div class="form-group col-lg-12">
@@ -676,7 +700,7 @@
     </div>
     <!-- page content End -->
      <!-- footer -->
-    <footer class="footer site-footer">
+    <footer class="footer site-footer" id="footer">
         <div class="footer-top skin-bg-color">
             <div class="container">
                 <div class="row d-flex white-color align-items-center">
@@ -701,67 +725,80 @@
                         </div>
                     </div>
                     <div class="col-lg-4 mt-md-30 text-lg-right">
-                        <a href="#" class="btn btn-dark">Cita whatsapp</a>
+                        <a  href="https://wa.me/+573174117065?text=Quiero%20pedir%20mi%20cita" 
+                            class="btn btn-dark"
+                            target="_blank"
+                        >
+                            Cita whatsapp
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footerlogo mb-4">
-                        <img class="" src="images/logo-dark.png" alt="">
+                <div class="col-xs-12 col-lg-4 mb-md-5 d-md-flex justify-content-center">
+                    <div>
+                        <div class="footerlogo mb-4 text-md-center text-lg-left">
+                            <img src="images/logo-dark.png" alt="opticenter">
+                        </div>
+                        <p class="mb-0">
+                            Consultorio optometrico, venta de lentes oftalmicos
+                            y lentes de contacto, monturas nacionales e importadas oftalmicas y de sol.
+                        </p>
+                        <div class="social-links-wrapper d-md-none d-lg-block">
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="https://www.instagram.com/opticenteroficial/" 
+                                        class="tooltip-top"
+                                        data-toggle="tooltip" 
+                                        data-placement="top" 
+                                        data-tooltip="Instagram"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>                    
                     </div>
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor asin cididunt ut labore et dolore magna ali qua. Lorem ipsum dolor sit amet.</p>
-                    <div class="social-links-wrapper">
-                        <ul class="social-icons">
-                            <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Flickr"><i class="fa fa-flickr"></i></a></li>
-                            <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-md-30 d-md-flex justify-content-center">
+                    <div>
+                        <h6 class="footer-widget-title">Nuestros Servicios</h6>
+                        <ul class="list-unstyled footer-link-list">
+                            <li><a>Lentes Transitions</a></li>
+                            <li><a>Cirugía ocular con láser</a></li>
+                            <li><a>Corrección de la visión</a></li>
+                            <li><a>Examenes y valoraciones</a></li>
+                            <li><a>Lentes Antireflejo</a></li>
+                            <li><a>Convenios Empresariales</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-sm-30">
-                    <h6 class="footer-widget-title">Marcos</h6>
-                    <ul class="list-unstyled footer-link-list">
-                        <li><a href="#">Make Appointments</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Treatments</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Doctors</a></li>
-                        <li><a href="#">Before & After</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-md-30">
-                    <h6 class="footer-widget-title">Nuestros Servicios</h6>
-                    <ul class="list-unstyled footer-link-list">
-                        <li><a href="#">Lentes Transitions</a></li>
-                        <li><a href="#">Cirugía ocular con láser</a></li>
-                        <li><a href="#">Corrección de la visión</a></li>
-                        <li><a href="#">Examenes y valoraciones</a></li>
-                        <li><a href="#">Lentes Antireflejo</a></li>
-                        <li><a href="#">Convenios Empresariales</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 address-box mt-md-30">
-                    <h6 class="footer-widget-title">Encuentranos</h6>
-                    <div class="d-flex">
-                        <i class="optico-icon-location-pin"></i>
-                        <p><strong>OPTICENTER</strong>
-                            <br/>CRA 1D BIS #61A - 94</p>
-                    </div>
-                    <div class="d-flex">
-                        <i class="optico-icon-mobile"></i>
-                        <p>(+01) 123 456 7890</p>
-                    </div>
-                    <div class="d-flex">
-                        <i class="optico-icon-comment-1"></i>
-                        <p>info@opticenter.com</p>
-                    </div>
-                    <div class="d-flex">
-                        <i class="optico-icon-clock"></i>
-                        <p>Lun - Sab 8.00 AM - 5:00 PM</p>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 address-box mt-md-30 d-md-flex justify-content-center">
+                    <div>
+                        <h6 class="footer-widget-title">Encuentranos</h6>
+                        <div class="d-flex">
+                            <i class="optico-icon-location-pin"></i>
+                            <p><strong>OPTICENTER</strong>
+                                <br/>CRA 1D BIS #61A - 94</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="optico-icon-mobile"></i>
+                            <p>(+602) 323 955 625 </p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="optico-icon-comment-1"></i>
+                            <p>info@opticenter.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <i class="optico-icon-clock"></i>
+                            <div>
+                                <p >Lun - Vie 8.00 AM - 6:00 PM</p> 
+                                <p>Lun - Sab 8.00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -790,7 +827,7 @@
     <!-- jquery Appear JS -->
     <script src="js/jquery.appear.js"></script>
     <!-- Numinate JS -->
-    <script async src="js/numinate.min.js"></script>
+    <script src="js/numinate.min.js"></script>
     <!-- Slick JS -->
     <script src="js/slick.min.js"></script>
     <!-- PrettyPhoto JS -->
