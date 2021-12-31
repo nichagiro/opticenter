@@ -7,9 +7,10 @@
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Opticenter la mejor optica del norte">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{-- TOKEN --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    {{-- CSS --}}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Fontawesome -->
