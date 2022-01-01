@@ -562,7 +562,7 @@
                                                 type="number"
                                                 class="form-control" 
                                                 placeholder="Telefono" 
-                                                name="your-phone"
+                                                name="phone"
                                                 required
                                             >
                                         </div>
@@ -592,7 +592,12 @@
                                             ></textarea>
                                         </div>
                                         <div class="form-group col-lg-12">
-                                            <button type="submit" class="btn">Envia mensaje</button>
+                                            <button 
+                                                type="submit" 
+                                                id="btn-agenda" 
+                                                class="btn">
+                                                Envia mensaje
+                                            </button>
                                         </div>
                                     </div>
                                 </form>

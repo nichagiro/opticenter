@@ -6,8 +6,16 @@
 @endcomponent
 @endslot
 
+{{-- Title --}}
+<h2>
+    {{$title}}
+</h2>
+
 {{-- Body --}}
 {{ $slot }}
+
+{{-- Return Button --}}
+{{$button}}
 
 {{-- Subcopy --}}
 @isset($subcopy)

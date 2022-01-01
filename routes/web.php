@@ -9,4 +9,4 @@ Route::get('/', function () {
 });
 
 // EMAILS
-Route::post('email', [EmailController::class, 'index'])->name('email');
+Route::post('emailCitas', [EmailController::class, 'citas'])->name('emailCitas');

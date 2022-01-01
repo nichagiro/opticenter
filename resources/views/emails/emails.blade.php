@@ -1,12 +1,21 @@
 @component('mail::message')
-# Introduction
+    @if (Arr::exists($email, 'title'))
+        <x-slot name="title">
+            {{$email['title']}}           
+        </x-slot>
+    @endif
 
-The body of your message.
+    @if (Arr::exists($email, 'body'))
+        <p>
+            {{$email['body']}}    
+        </p>
+    @endif
 
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
+    @if ($button)
+        <x-slot name="button">
+            @component('mail::button', ['url' => $button['url']])
+                {{$button['text']}}
+            @endcomponent        
+        </x-slot>
+    @endif
 @endcomponent
