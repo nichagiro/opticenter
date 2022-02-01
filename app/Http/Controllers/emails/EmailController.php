@@ -24,11 +24,11 @@ class EmailController extends Controller
                 'url' => env('WHATSAPP_API').'57'.$request->phone,
                 'text' => 'Whatsapp'
             ]);
-            // Mail::send(new EmailsMailable($request));    
+            Mail::send(new EmailsMailable($request));    
             return response($request->all(), 200);
         }
         else{
-            return response(false, 400);
+            return response(0, 400);
         }
     }
 }

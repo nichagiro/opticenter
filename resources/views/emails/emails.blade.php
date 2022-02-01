@@ -6,9 +6,9 @@
     @endif
 
     @if (Arr::exists($email, 'body'))
-        <p>
-            {{$email['body']}}    
-        </p>
+        <div>
+            <p>{{$email['body']}} </p>
+        </div>
     @endif
 
     @if ($button)

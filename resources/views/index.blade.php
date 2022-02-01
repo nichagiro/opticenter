@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Optienter || La mejor optica del norte || Gafas medicadas</title>
+    <title>Optienter | Marcos | Optometria | Oftamologia | Optica | Examen Ocular</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Opticenter la mejor optica del norte">
+    <meta name="description" content="Opticenter la mejor optica del norte, gafas y lentes medicads, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia, cuida tus ojos.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {{-- TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -76,7 +76,8 @@
                             <div class="d-flex align-items-center">
                                 <div class="site-branding flex-grow-1">
                                     <a href="index.html">
-                                        <img class="logo-img" alt="optico" src="images/logo-dark.png">
+                                        {{-- <img loading="lazy" class="logo-img" alt="opticenter" src="images/logo-dark.png"> --}}                                        
+                                        <h2 style="font-weight: 900">Opticenter</h2>
                                     </a>
                                 </div>                                
                                 <div class="site-navigation ml-auto">
@@ -90,7 +91,7 @@
                                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
                                                 <li><a href="/">Inicio</a></li>
-                                                <li><a href="#">Contacto</a></li>
+                                                <li><a href="#footer">Contacto</a></li>
                                             </ul>
                                         </div>
                                     </nav>
@@ -116,7 +117,7 @@
                 <div id="Bannerslider" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="img-fluid" src="images/banner/banner-01.jpg" alt="..." />
+                            <img loading="lazy" class="img-fluid" src="images/banner/banner-01.jpg" alt="opticenter" />
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row">
@@ -133,7 +134,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="img-fluid" src="images/banner/banner-02.jpg" alt="...">
+                            <img loading="lazy" class="img-fluid" src="images/banner/banner-02.jpg" alt="opticenter">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row">
@@ -243,7 +244,7 @@
                 <div class="container">
                     <div class="row align-items-lg-center align-items-md-end">
                         <div class="col-md-12 col-lg-6">
-                            <img src="images/img-01-new.png" class="img-fluid" alt="optometria para niños" />
+                            <img loading="lazy" src="images/img-01-new.png" class="img-fluid" alt="optometria para niños" />
                         </div>
                         <div class="col-md-12 col-lg-6 mt-sm-30 pb-50">
                             <div class="section-title mt-md-50">
@@ -355,7 +356,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 mt-md-30 text-md-center mb-lg-30">
-                            <img src="images/01.jpg" class="img-fluid img-shadow" alt="viendo full" />
+                            <img loading="lazy" src="images/01.jpg" class="img-fluid img-shadow" alt="cuida tus ojos" />
                         </div>
                     </div>
                 </div>
@@ -457,7 +458,11 @@
                             <div class="service-box service-style-1">
                                 <div class="service-thumbnail">
                                     <div class="service-thumbnail-inner">
-                                        <img src="images/services/service-01.jpg" class="img-fluid" alt="">
+                                        <img 
+                                            loading="lazy" 
+                                            src="images/services/service-01.jpg"
+                                            class="img-fluid"       
+                                            alt="oftamologia">
                                     </div>
                                 </div>
                                 <div class="service-content">
@@ -474,7 +479,11 @@
                             <div class="service-box service-style-1">
                                 <div class="service-thumbnail">
                                     <div class="service-thumbnail-inner">
-                                        <img src="images/services/service-02.jpg" class="img-fluid" alt="">
+                                        <img 
+                                            loading="lazy"
+                                            src="images/services/service-02.jpg" 
+                                            class="img-fluid"
+                                            alt="opticenter">
                                     </div>
                                 </div>
                                 <div class="service-content">
@@ -491,7 +500,12 @@
                             <div class="service-box service-style-1">
                                 <div class="service-thumbnail">
                                     <div class="service-thumbnail-inner">
-                                        <img src="images/services/service-03.jpg" class="img-fluid" alt="">
+                                        <img 
+                                            src="images/services/service-03.jpg" 
+                                            class="img-fluid" 
+                                            alt="lentes transitions"
+                                            loading="lazy"
+                                        >
                                     </div>
                                 </div>
                                 <div class="service-content">
@@ -746,7 +760,8 @@
                 <div class="col-xs-12 col-lg-4 mb-md-5 d-md-flex justify-content-center">
                     <div>
                         <div class="footerlogo mb-4 text-md-center text-lg-left">
-                            <img src="images/logo-dark.png" alt="opticenter">
+                            {{-- <img loading="lazy" src="images/logo-dark.png" alt="opticenter"> --}}
+                            <h2 style="font-weight: 900">Opticenter</h2>
                         </div>
                         <p class="mb-0">
                             Consultorio optometrico, venta de lentes oftalmicos
@@ -821,6 +836,10 @@
     </footer>
     </div>
     <!-- page wrapper End -->
+
+    <div id="notify">
+
+    </div>
 
     <!-- jQuery JS -->
     <script src="js/jquery.min.js"></script>
