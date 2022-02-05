@@ -1,42 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    {{-- SEO BASICS --}}
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Optienter | Marcos | Optometria | Oftamologia | Optica | Examen Ocular</title>
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Opticenter la mejor optica del norte, gafas y lentes medicads, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia, cuida tus ojos.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="maquillaje, cosmeticos, productos de belleza, regalos de maquillaje, cuidado de la piel, maquillaje para niñas, maquillaje de ojos, maquillaje sencillo, productos de maquillaje">
+    <meta name="description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia.">
+    <meta name="subject" content="Lentes">
+    <meta name="author" content="Nicolas Chamorro">
+    <meta name="copyright" content="© OPTICENTER">
+    <meta name="language" content="es">
+    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
+    <link rel="canonical" href="{{env('APP_URL')}}">
+    <title>Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte</title>
+    {{-- TWITTWER --}}
+    <meta name="twitter:card" content="summary" />	
+    <meta name="twitter:title" content="Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte" >
+    <meta name="twitter:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia." >
+    <meta name="twitter:image" content="{{ asset('images/services/service-03.jpg') }}" >
+    <meta name="twitter:site" content="@Nicolas63783814" >
+    <meta name="twitter:creator" content="@Nicolas63783814" >
+    {{-- Open Graph  --}}    
+    <meta property="og:title" content="Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="{{env('APP_URL')}}"/>
+    <meta property="og:site_name" content="{{env('APP_NAME')}}"/>
+    <meta property="og:image" content="{{ asset('images/services/service-03.jpg')}}"/>
+    <meta property="og:image:alt" content="gafas opticenter"/>	
+    <meta property="og:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia."/>
+    {{-- INTEGRAR LAS REDES --}}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "Opticenter",
+            "url": "https://opticenter.com.co/",
+            "address": "CRA 1D BIS #61A - 94",
+            "sameAs": [
+                "https://www.instagram.com/opticenteroficial/",
+                "https://linkedin.com/in/nicolas-chamorro-9aa594196"
+            ]
+        }
+    </script>
+    {{-- STRUCTURE DATA --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "image": [
+        "https://opticenter.com.co/images/services/service-03.jpg",
+        "https://opticenter.com.co/images/services/service-02.jpg",
+        "https://opticenter.com.co/images/services/service-01.jpg"
+       ],
+      "datePublished": "2022-02-04T22:00:00+08:00",
+      "dateModified": "2022-02-04T22:00:00+08:00",
+      "author": [{
+          "@type": "Organization",
+          "name": "Opticenter",
+          "url": "https://opticenter.com.co"
+        },{
+            "@type": "Organization",
+            "name": "Overweb",
+            "url": "https://overweb.com.co"
+          },{
+          "@type": "Person",
+          "name": "Nicolas Chamorro Giron",
+          "url": "https://nichagiro.github.io"
+      }]
+    }
+    </script>
     {{-- TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }} ">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
     <!-- Flaticon -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
     <!-- optico Icons -->
-    <link rel="stylesheet" href="css/optico-icons.css">
+    <link rel="stylesheet" href="{{asset('css/optico-icons.css')}}">
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
     <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="{{asset('css/slick.css')}}">
     <!-- Slick Theme -->
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="{{asset('css/slick-theme.css')}}">
     <!-- Pretty Photo -->
-    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="{{asset('css/prettyPhoto.css')}}">
     <!-- Twentytwenty -->
-    <link rel="stylesheet" href="css/twentytwenty.css">
+    <link rel="stylesheet" href="{{asset('css/twentytwenty.css')}}">
     <!-- Shortcode CSS -->
-    <link rel="stylesheet" href="css/shortcode.css">
+    <link rel="stylesheet" href="{{asset('css/shortcode.css')}}">
     <!-- Base CSS -->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="{{asset('css/base.css')}}">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
 </head>
 <body>
    <!-- page wrapper -->
@@ -117,7 +182,7 @@
                 <div id="Bannerslider" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img loading="lazy" class="img-fluid" src="images/banner/banner-01.jpg" alt="opticenter" />
+                            <img loading="lazy" class="img-fluid" src="{{asset('images/banner/banner-01.webp')}}" alt="opticenter" />
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row">
@@ -134,7 +199,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img loading="lazy" class="img-fluid" src="images/banner/banner-02.jpg" alt="opticenter">
+                            <img loading="lazy" class="img-fluid" src="{{asset('images/banner/banner-02.webp')}}" alt="opticenter">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row">
@@ -244,7 +309,7 @@
                 <div class="container">
                     <div class="row align-items-lg-center align-items-md-end">
                         <div class="col-md-12 col-lg-6">
-                            <img loading="lazy" src="images/img-01-new.png" class="img-fluid" alt="optometria para niños" />
+                            <img loading="lazy" src="{{asset('images/img-01-new.webp')}}" class="img-fluid" alt="optometria para niños" />
                         </div>
                         <div class="col-md-12 col-lg-6 mt-sm-30 pb-50">
                             <div class="section-title mt-md-50">
@@ -356,7 +421,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 mt-md-30 text-md-center mb-lg-30">
-                            <img loading="lazy" src="images/01.jpg" class="img-fluid img-shadow" alt="cuida tus ojos" />
+                            <img loading="lazy" src="{{asset('images/01.webp')}}" class="img-fluid img-shadow" alt="cuida tus ojos" />
                         </div>
                     </div>
                 </div>
@@ -460,7 +525,7 @@
                                     <div class="service-thumbnail-inner">
                                         <img 
                                             loading="lazy" 
-                                            src="images/services/service-01.jpg"
+                                            src="{{asset('images/services/service-01.webp')}}"
                                             class="img-fluid"       
                                             alt="oftamologia">
                                     </div>
@@ -481,7 +546,7 @@
                                     <div class="service-thumbnail-inner">
                                         <img 
                                             loading="lazy"
-                                            src="images/services/service-02.jpg" 
+                                            src="{{asset('images/services/service-02.webp')}}" 
                                             class="img-fluid"
                                             alt="opticenter">
                                     </div>
@@ -501,7 +566,7 @@
                                 <div class="service-thumbnail">
                                     <div class="service-thumbnail-inner">
                                         <img 
-                                            src="images/services/service-03.jpg" 
+                                            src="{{asset('images/services/service-03.webp')}}" 
                                             class="img-fluid" 
                                             alt="lentes transitions"
                                             loading="lazy"
@@ -842,29 +907,29 @@
     </div>
 
     <!-- jQuery JS -->
-    <script src="js/jquery.min.js"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
     <!-- Popper JS -->
-    <script src="js/popper.min.js"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
     <!-- Bootstrap JS -->
-    <script async src="js/bootstrap.min.js"></script>
+    <script async src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- jquery Waypoints JS -->
-    <script src="js/jquery-waypoints.js"></script>
+    <script src="{{asset('js/jquery-waypoints.js')}}"></script>
     <!-- jquery Appear JS -->
-    <script src="js/jquery.appear.js"></script>
+    <script src="{{asset('js/jquery.appear.js')}}"></script>
     <!-- Numinate JS -->
-    <script src="js/numinate.min.js"></script>
+    <script src="{{asset('js/numinate.min.js')}}"></script>
     <!-- Slick JS -->
-    <script src="js/slick.min.js"></script>
+    <script src="{{asset('js/slick.min.js')}}"></script>
     <!-- PrettyPhoto JS -->
-    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
     <!-- Circle Progress JS -->
-    <script src="js/circle-progress.js"></script>
+    <script src="{{asset('js/circle-progress.js')}}"></script>
     <!-- Event Move JS -->
-    <script src="js/jquery.event.move.js"></script>
+    <script src="{{asset('js/jquery.event.move.js')}}"></script>
     <!-- Twentytwenty JS -->
-    <script src="js/jquery.twentytwenty.js"></script>
+    <script src="{{asset('js/jquery.twentytwenty.js')}}"></script>
     <!-- Scripts JS -->
-    <script src="js/scripts.js"></script>
+    <script src="{{asset('js/scripts.js')}}"></script>
     {{-- Form --}}
     <script defer src={{ asset('js/forms/citas/agenda.js') }}></script>
 </body>
