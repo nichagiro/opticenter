@@ -19,7 +19,7 @@
     <meta name="twitter:card" content="summary" />	
     <meta name="twitter:title" content="Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte" >
     <meta name="twitter:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia." >
-    <meta name="twitter:image" content="{{ asset('images/services/service-03.jpg') }}" >
+    <meta name="twitter:image" content="{{ asset('images/services/service-03.webp') }}" >
     <meta name="twitter:site" content="@Nicolas63783814" >
     <meta name="twitter:creator" content="@Nicolas63783814" >
     {{-- Open Graph  --}}    
@@ -27,7 +27,7 @@
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="{{env('APP_URL')}}"/>
     <meta property="og:site_name" content="{{env('APP_NAME')}}"/>
-    <meta property="og:image" content="{{ asset('images/services/service-03.jpg')}}"/>
+    <meta property="og:image" content="{{ asset('images/services/service-03.webp')}}"/>
     <meta property="og:image:alt" content="gafas opticenter"/>	
     <meta property="og:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia."/>
     {{-- INTEGRAR LAS REDES --}}
@@ -41,6 +41,7 @@
             "sameAs": [
                 "https://www.instagram.com/opticenteroficial/",
                 "https://linkedin.com/in/nicolas-chamorro-9aa594196"
+                "https://www.facebook.com/nichagiro/"
             ]
         }
     </script>
@@ -51,9 +52,9 @@
       "@type": "NewsArticle",
       "headline": "Article headline",
       "image": [
-        "https://opticenter.com.co/images/services/service-03.jpg",
-        "https://opticenter.com.co/images/services/service-02.jpg",
-        "https://opticenter.com.co/images/services/service-01.jpg"
+        "https://opticenter.com.co/images/services/service-03.webp",
+        "https://opticenter.com.co/images/services/service-02.webp",
+        "https://opticenter.com.co/images/services/service-01.webp"
        ],
       "datePublished": "2022-02-04T22:00:00+08:00",
       "dateModified": "2022-02-04T22:00:00+08:00",
@@ -140,7 +141,7 @@
                         <div class="col-md-12">
                             <div class="d-flex align-items-center">
                                 <div class="site-branding flex-grow-1">
-                                    <a href="index.html">
+                                    <a href="/">
                                         {{-- <img loading="lazy" class="logo-img" alt="opticenter" src="images/logo-dark.png"> --}}                                        
                                         <h2 style="font-weight: 900">Opticenter</h2>
                                     </a>
