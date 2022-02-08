@@ -75,7 +75,7 @@
     {{-- TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.ico') }} ">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/lentes.png') }} ">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- Fontawesome -->

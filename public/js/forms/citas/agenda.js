@@ -1,11 +1,12 @@
 const formy = document.getElementById('formy');
-formy.addEventListener('submit', (e) => {
+formy.addEventListener('submit', async (e) => {
     e.preventDefault();
     const button = document.getElementById('btn-agenda');
     button.setAttribute('disabled', true);
     button.innerText = 'Cargando...'
     const data = new FormData(formy);
-    fetch('emailCitas',{
+    
+    await fetch('emailCitas',{
         body: data,
         method: 'POST',
         headers: {
@@ -14,40 +15,31 @@ formy.addEventListener('submit', (e) => {
     })
     .then(response => response.json())
     .then(data => {
-        if(data){           
-            ShowAlert('success');
-            formy.reset();
-            SetDisplayButton(true)
-        }
-        else{
-            ShowAlert('danger');
-            SetDisplayButton(false)
-        }
-    });
+        ShowAlert('success', 'SE ENVIO CON EXITO');
+        formy.reset();      
+    })
+    .catch( e => {
+        ShowAlert('danger', 'HA OCURRIDO UN ERROR');
+    })
+    SetDisplayButton(false)
 })
 
-const ShowAlert = color => {
-    const msg = color == 'success' ? 'Se envio con exito' : 'llene todos los campos'
+const ShowAlert = (color, data) => {
     const notify = document.getElementById('notify')
     const alert =   
         `<div id="alert" class="alert alert-${color} fixed-top" role="alert">
-            ${msg}
+            ${data}
         </div>`
 
     notify.innerHTML += alert;
     setTimeout(() => {
         document.getElementById('alert').remove()
-    }, 4000);
+    }, 5000);
 }
 
-const SetDisplayButton = (disabled) => {
-    const button = document.getElementById('btn-agenda');
-    if(disabled){
-        button.innerText = 'ENVIADO'
-    } 
-    else{
-        button.removeAttribute('disabled');
-        button.innerText = 'ENVIA MENSAJE'
-    }
+const SetDisplayButton = () => {
+    const button = document.getElementById('btn-agenda');   
+    button.removeAttribute('disabled');
+    button.innerText = 'ENVIAR NUEVAMENTE'
 }
 
