@@ -156,8 +156,9 @@
                                         </div>
                                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
-                                                <li><a href="/">Inicio</a></li>
+                                                <li><a href="#Bannerslider">Inicio</a></li>
                                                 <li><a href="#footer">Contacto</a></li>
+                                                <li class="d-lg-none"><a href="#cita">cita</a></li>
                                             </ul>
                                         </div>
                                     </nav>
@@ -192,7 +193,7 @@
                                             <h1 class="anim-2">Servicio que te hará <br/><strong>vernos con nuevos ojos</strong></h1>
                                             <div class="tagline anim-3 d-none d-sm-block">Brindamos siempre nuestros mejores servicios</div>
                                             <div class="d-none d-sm-block mt-4">
-                                                <a href="https://wa.me/573174117065" target="_blank" class="btn anim-3">Whatsapp </a>
+                                                <a href="https://wa.me/573174117065" target="_blank" class="btn anim-3">WhatsApp </a>
                                             </div>
                                         </div>
                                     </div>
@@ -243,7 +244,7 @@
                                             <h2>Cuidado de los ojos</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Mejoramos tu visión y tu calidad de vida, con nuestras gafas medicadas   .</p>
+                                            <p>Mejoramos tu visión y tu calidad de vida, con nuestras gafas medicadas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +261,7 @@
                                             <h2>Niños</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Cuida tus niños asi como lo hacemos nosotros, la mejor atención para ellos.</p>
+                                            <p>Cuida tus niños así como lo hacemos nosotros, la mejor atención para ellos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +278,7 @@
                                             <h2>Marcos</h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Gran variedad disponible para elegir: colores, marcas, tamaños. lo mejor y a la moda.</p>
+                                            <p>Gran variedad disponible para elegir: colores, marcas, tamaños; Lo mejor y a la moda.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -322,9 +323,9 @@
                                 <a class="opt-underline-dotted"
                                     href="https://www.masvision.es/blog/salud-visual/10-consejos-prevenir-miopia/"
                                     target="_blank">
-                                    protegelos
+                                    protégelos
                                 </a>
-                               con habitos saludables, visitanos y recibe los mejores tips y cuidados de opticenter.
+                                con hábitos saludables, visítanos y recibe los mejores tips y cuidados de opticenter.
                             </p>
                             <p>
                                 <a class="opt-underline-dotted" 
@@ -337,7 +338,7 @@
                                     class="btn anim-3"
                                     target="_blank"    
                                 >
-                                    Visitanos
+                                    VISÍTANOS
                                 </a>
                             </div>
                         </div>
@@ -355,9 +356,9 @@
                                 <h4 class="subheading skincolor">SU VISIÓN ES NUESTRA VISIÓN</h4>
                                 <h2>NO SOLO ATENCIÓN, SINO<strong> UNA <br/>MEJOR EXPERIENCIA DE ATENCIÓN</strong></h2>
                                 <div class="lead">
-                                    Estamos pendientes antes y despues del proceso ocular, siempre atentos a las 
+                                    Estamos pendientes antes y después del proceso ocular, siempre atentos a las 
                                     preguntas de nuestros clientes, acompañamiento constante durante el proceso,
-                                    asesoria y precios accesibles.
+                                    asesoría y precios accesibles.
                                 </div>
                             </div>
                             <div class="row">
@@ -399,7 +400,7 @@
                                                     <h2>Ayuda de emergencia</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>clinicas para tratamientos quirurjicos oftalmologicos</p>
+                                                    <p>clínicas para tratamientos quirúrgicos oftalmológicos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -535,7 +536,7 @@
                                     <div class="service-inner">
                                         <h3 class="service-box-title"><b>Oftalmología Pediátrica</b></h3>
                                         <div class="service-desc">
-                                            <p>Examenes, Cirugias, Diagnósticos, Leciones, Recetas y Fórmulas.</p>
+                                            <p>Exámenes, Cirugías, Diagnósticos, Lesiones, Recetas y Fórmulas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -630,7 +631,7 @@
                                                 id="email"
                                                 type="email"
                                                 class="form-control" 
-                                                placeholder="Correo Electronico"
+                                                placeholder="Correo Electrónico"
                                                 name="email" aria-required="true"
                                                 required
                                                 minlength="10"
@@ -641,7 +642,7 @@
                                                 id="phone"
                                                 type="number"
                                                 class="form-control" 
-                                                placeholder="Telefono" 
+                                                placeholder="Teléfono" 
                                                 name="phone"
                                                 required
                                             >
@@ -661,7 +662,7 @@
                                             <textarea 
                                                 id="comment"
                                                 class="form-control"
-                                                placeholder="Message"
+                                                placeholder="Mensaje"
                                                 name="message" 
                                                 cols="45" 
                                                 rows="5" 
@@ -676,7 +677,7 @@
                                                 type="submit" 
                                                 id="btn-agenda" 
                                                 class="btn">
-                                                Envia mensaje
+                                                Envía mensaje
                                             </button>
                                         </div>
                                     </div>
@@ -802,7 +803,7 @@
                                                 Si tienes alguna pregunta, duda o inquietud
                                                 <strong>
                                                     puedes mandarnos un mensaje o incluso pedir la cita
-                                                    via whatsapp.
+                                                    vía WhatsApp.
                                                 </strong>
                                             </h2>
                                         </div>
@@ -815,7 +816,7 @@
                             class="btn btn-dark"
                             target="_blank"
                         >
-                            Cita whatsapp
+                            Cita WhatsApp
                         </a>
                     </div>
                 </div>
@@ -830,8 +831,8 @@
                             <h2 style="font-weight: 900">Opticenter</h2>
                         </div>
                         <p class="mb-0">
-                            Consultorio optometrico, venta de lentes oftalmicos
-                            y lentes de contacto, monturas nacionales e importadas oftalmicas y de sol.
+                            Consultorio optométrico, venta de lentes oftálmicos y lentes de contacto,
+                            monturas nacionales e importadas oftálmicas y de sol.
                         </p>
                         <div class="social-links-wrapper d-md-none d-lg-block">
                             <ul class="social-icons">
@@ -857,7 +858,7 @@
                             <li><a>Lentes Transitions</a></li>
                             <li><a>Cirugía ocular con láser</a></li>
                             <li><a>Corrección de la visión</a></li>
-                            <li><a>Examenes y valoraciones</a></li>
+                            <li><a>Exámenes y valoraciones</a></li>
                             <li><a>Lentes Antireflejo</a></li>
                             <li><a>Convenios Empresariales</a></li>
                         </ul>
