@@ -40,7 +40,7 @@
             "address": "CRA 1D BIS #61A - 94",
             "sameAs": [
                 "https://www.instagram.com/opticenteroficial/",
-                "https://linkedin.com/in/nicolas-chamorro-9aa594196"
+                "https://linkedin.com/in/nicolas-chamorro-9aa594196",
                 "https://www.facebook.com/nichagiro/"
             ]
         }
