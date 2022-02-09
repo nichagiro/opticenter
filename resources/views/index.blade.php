@@ -873,7 +873,7 @@
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-mobile"></i>
-                            <p>(+602) 323 955 625 </p>
+                            <p>(+57) 317 411 7065 </p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-comment-1"></i>
@@ -903,9 +903,10 @@
     </div>
     <!-- page wrapper End -->
 
-    <div id="notify">
-
-    </div>
+    <div id="notify"></div>
+    <a class="whatsapp" href="https://wa.me/573174117065">
+        <i class="fa fa-whatsapp fa-4x" aria-hidden="true"></i>
+    </a>
 
     <!-- jQuery JS -->
     <script src="{{asset('js/jquery.min.js')}}"></script>
