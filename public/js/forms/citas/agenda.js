@@ -6,7 +6,7 @@ formy.addEventListener('submit', async (e) => {
     button.innerText = 'Cargando...'
     const data = new FormData(formy);
     
-    fetch('emailCitas',{
+    await fetch('emailCitas',{
         body: data,
         method: 'POST',
         headers: {

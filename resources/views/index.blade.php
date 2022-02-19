@@ -79,22 +79,8 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('images/logoOpticenter.PNG') }} ">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
-    <!-- Flaticon -->
-    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
-    <!-- optico Icons -->
-    <link rel="stylesheet" href="{{asset('css/optico-icons.css')}}">
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
     <!-- Slick -->
     <link rel="stylesheet" href="{{asset('css/slick.css')}}">
-    <!-- Slick Theme -->
-    <link rel="stylesheet" href="{{asset('css/slick-theme.css')}}">
-    <!-- Pretty Photo -->
-    <link rel="stylesheet" href="{{asset('css/prettyPhoto.css')}}">
-    <!-- Twentytwenty -->
-    <link rel="stylesheet" href="{{asset('css/twentytwenty.css')}}">
     <!-- Shortcode CSS -->
     <link rel="stylesheet" href="{{asset('css/shortcode.css')}}">
     <!-- Base CSS -->
@@ -119,12 +105,12 @@
                     <div class="d-flex justify-content-between  align-items-center">
                         <div class="pre-header-left">
                             <ul class="top-contact">
-                                <li><i class="optico-icon-location-pin"></i>CRA 1D BIS # 61A - 94 </li>
+                                <li><i class="fa-solid fa-location-dot"></i>CRA 1D BIS # 61A - 94 </li>
                             </ul>
                         </div>
                         <div class="pre-header-right">
                             <ul class="top-contact d-inline">
-                                <li><i class="optico-icon-clock"></i>Lun - Sab 8.00 AM - 5:00 PM </li>
+                                <li><i class="fa-solid fa-clock"></i>Lun - Sab 8.00 AM - 5:00 PM </li>
                             </ul>
                             <ul class="social-icons d-inline">
                                 <li>
@@ -132,7 +118,7 @@
                                         href="https://www.instagram.com/opticenteroficial/" 
                                         data-tooltip="Instagram"
                                     >
-                                        <i class="optico-icon-instagram"></i>
+                                        <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -241,7 +227,7 @@
                             <div class="iconbox iconbox-style-3">
                                 <div class="iconbox-inner">
                                     <div class="iconbox-icon skincolor">
-                                        <i class="flaticon-icon flaticon-eye"></i>
+                                        <i class="fa-solid fa-eye"></i>
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
@@ -258,7 +244,7 @@
                             <div class="iconbox iconbox-style-3">
                                 <div class="iconbox-inner">
                                     <div class="iconbox-icon skincolor">
-                                        <i class="flaticon-icon flaticon-testing-glasses"></i>
+                                        <i class="fa-solid fa-child"></i>
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
@@ -275,7 +261,7 @@
                             <div class="iconbox iconbox-style-3">
                                 <div class="iconbox-inner">
                                     <div class="iconbox-icon skincolor">
-                                        <i class="flaticon-icon flaticon-glasses"></i>
+                                        <i class="fa-solid fa-glasses"></i>
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
@@ -292,7 +278,7 @@
                             <div class="iconbox iconbox-style-3">
                                 <div class="iconbox-inner">
                                     <div class="iconbox-icon skincolor">
-                                        <i class="flaticon-icon flaticon-contact-lens-3"></i>
+                                        <i class="fa-solid fa-user-doctor"></i>
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
@@ -444,7 +430,7 @@
                                     target="_blank"
                                     href="https://www.youtube.com/watch?v=smhKRoLLvDQ&list=PL5n65gEBgEz3r2V_Stvaqe9UxS87XfSOR&index=2"
                                 >
-                                    <i class="themifyicon ti-control-play"></i>
+                                    <i class="fa-solid fa-play"></i>
                                 </a>
                                 <h4>Más allá de los lentes</h4>
                             </div>
@@ -799,7 +785,7 @@
                         <div class="iconbox iconbox-style-6">
                             <div class="iconbox-inner d-flex">
                                 <div class="iconbox-icon">
-                                    <i class="themifyicon ti-headphone-alt"></i>
+                                    <i class="fa-solid fa-headset"></i>
                                 </div>
                                 <div class="iconbox-contents">
                                     <div class="iconbox-title">
@@ -831,7 +817,6 @@
                 <div class="col-xs-12 col-lg-4 mb-md-5 d-md-flex justify-content-center">
                     <div>
                         <div class="footerlogo mb-4 text-md-center text-lg-left">
-                            {{-- <img loading="lazy" src="images/logo-dark.png" alt="opticenter"> --}}
                             <h2 style="font-weight: 900">Opticenter</h2>
                         </div>
                         <p class="mb-0">
@@ -858,13 +843,25 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mt-md-30 d-md-flex justify-content-center">
                     <div>
                         <h6 class="footer-widget-title">Nuestros Servicios</h6>
-                        <ul class="list-unstyled footer-link-list">
-                            <li><a>Lentes Transitions</a></li>
-                            <li><a>Cirugía ocular con láser</a></li>
-                            <li><a>Corrección de la visión</a></li>
-                            <li><a>Exámenes y valoraciones</a></li>
-                            <li><a>Lentes Antireflejo</a></li>
-                            <li><a>Convenios Empresariales</a></li>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Lentes Transitions</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Cirugía ocular con láser</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Corrección de la visión</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Exámenes y valoraciones</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Lentes Antireflejo</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
+                                <a> Convenios Empresariales</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -872,22 +869,27 @@
                     <div>
                         <h6 class="footer-widget-title">Encuentranos</h6>
                         <div class="d-flex">
-                            <i class="optico-icon-location-pin"></i>
+                            <i class="fa-solid fa-location-dot"></i>
                             <p><strong>OPTICENTER</strong>
                                 <br/>CRA 1D BIS #61A - 94</p>
                         </div>
                         <div class="d-flex">
-                            <i class="optico-icon-mobile"></i>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
                             <p>(+57) 317 411 7065 </p>
                         </div>
                         <div class="d-flex">
-                            <i class="optico-icon-comment-1"></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <p>info@opticenter.com</p>
                         </div>
                         <div class="d-flex">
-                            <i class="optico-icon-clock"></i>
+                            <i class="fa-solid fa-clock"></i>
                             <div>
                                 <p >Lun - Vie 8.00 AM - 6:00 PM</p> 
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
                                 <p>Lun - Sab 8.00 AM - 5:00 PM</p>
                             </div>
                         </div>
@@ -910,7 +912,7 @@
 
     <div id="notify"></div>
     <a class="whatsapp" href="https://wa.me/573174117065">
-        <i class="fa fa-whatsapp fa-4x" aria-hidden="true"></i>
+        <i class="fa-brands fa-whatsapp fa-3x"></i>
     </a>
 
     <!-- jQuery JS -->
@@ -937,6 +939,8 @@
     <script defer src="{{asset('js/jquery.twentytwenty.js')}}"></script>
     <!-- Scripts JS -->
     <script defer src="{{asset('js/scripts.js')}}"></script>
+    {{-- Fontawesome --}}
+    <script defer src="https://kit.fontawesome.com/5ffca20140.js" crossorigin="anonymous"></script>
     {{-- Form --}}
     <script defer src={{ asset('js/forms/citas/agenda.js') }}></script>
 </body>
