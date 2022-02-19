@@ -76,7 +76,7 @@
     {{-- TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/lentes.png') }} ">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logoOpticenter.PNG') }} ">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- Fontawesome -->
@@ -103,6 +103,11 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    {{-- Google Fonts --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swapdefer " rel="stylesheet">
 </head>
 <body>
    <!-- page wrapper -->
@@ -142,8 +147,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="site-branding flex-grow-1">
                                     <a href="/">
-                                        {{-- <img loading="lazy" class="logo-img" alt="opticenter" src="images/logo-dark.png"> --}}                                        
-                                        <h2 style="font-weight: 900">Opticenter</h2>
+                                        <img loading="lazy" class="logo-img" alt="opticenter" src={{ asset('images/logoOpticenter.webp') }}>                                        
                                     </a>
                                 </div>                                
                                 <div class="site-navigation ml-auto">
@@ -910,29 +914,29 @@
     </a>
 
     <!-- jQuery JS -->
-    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script defer src="{{asset('js/jquery.min.js')}}"></script>
     <!-- Popper JS -->
-    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script defer src="{{asset('js/popper.min.js')}}"></script>
     <!-- Bootstrap JS -->
-    <script async src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script defer src="{{asset('js/bootstrap.min.js')}}"></script>
     <!-- jquery Waypoints JS -->
-    <script src="{{asset('js/jquery-waypoints.js')}}"></script>
+    <script defer src="{{asset('js/jquery-waypoints.js')}}"></script>
     <!-- jquery Appear JS -->
-    <script src="{{asset('js/jquery.appear.js')}}"></script>
+    <script defer src="{{asset('js/jquery.appear.js')}}"></script>
     <!-- Numinate JS -->
-    <script src="{{asset('js/numinate.min.js')}}"></script>
+    <script defer src="{{asset('js/numinate.min.js')}}"></script>
     <!-- Slick JS -->
-    <script src="{{asset('js/slick.min.js')}}"></script>
+    <script defer src="{{asset('js/slick.min.js')}}"></script>
     <!-- PrettyPhoto JS -->
-    <script src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
+    <script defer src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
     <!-- Circle Progress JS -->
-    <script src="{{asset('js/circle-progress.js')}}"></script>
+    <script defer src="{{asset('js/circle-progress.js')}}"></script>
     <!-- Event Move JS -->
-    <script src="{{asset('js/jquery.event.move.js')}}"></script>
+    <script defer src="{{asset('js/jquery.event.move.js')}}"></script>
     <!-- Twentytwenty JS -->
-    <script src="{{asset('js/jquery.twentytwenty.js')}}"></script>
+    <script defer src="{{asset('js/jquery.twentytwenty.js')}}"></script>
     <!-- Scripts JS -->
-    <script src="{{asset('js/scripts.js')}}"></script>
+    <script defer src="{{asset('js/scripts.js')}}"></script>
     {{-- Form --}}
     <script defer src={{ asset('js/forms/citas/agenda.js') }}></script>
 </body>

@@ -8,7 +8,7 @@ Route::get('/', function () {
 })->middleware('throttle:15,1');
 
 // EMAILS
-Route::post('emailCitas', [EmailController::class, 'citas'])->name('emailCitas')->middleware('throttle:4,1');
+Route::post('emailCitas', [EmailController::class, 'citas'])->name('emailCitas')->middleware('throttle:5,1');
 
 //404
 Route::fallback( function () {

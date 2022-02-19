@@ -6,7 +6,7 @@ formy.addEventListener('submit', async (e) => {
     button.innerText = 'Cargando...'
     const data = new FormData(formy);
     
-    await fetch('emailCitas',{
+    fetch('emailCitas',{
         body: data,
         method: 'POST',
         headers: {
@@ -19,6 +19,7 @@ formy.addEventListener('submit', async (e) => {
         formy.reset();      
     })
     .catch( e => {
+        console.log(e)
         ShowAlert('danger', 'HA OCURRIDO UN ERROR');
     })
     SetDisplayButton(false)
