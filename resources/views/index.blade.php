@@ -198,7 +198,7 @@
                                         <div class="col-xl-6 col-lg-7 col-md-7  col-sm-8 col-8">
                                             <span class="shapewrapper-inner anim-1">Material de calidad</span>
                                             <h1 class="anim-2">Dale la comodidad y la seguridad <br/><strong>que tus ojos necesitan.</strong></h1>
-                                            <div class="tagline anim-3 d-none d-sm-block">Garantia en todos nuestros productos</div>
+                                            <div class="tagline anim-3 d-none d-sm-block">Garantía en todos nuestros productos</div>
                                             <div class="d-none d-sm-block mt-4">
                                                 <a href="tel:3174117065" class="btn anim-3">llamanos </a>
                                             </div>
@@ -360,7 +360,7 @@
                                                     <h2>Médicos Calificados</h2>
                                                 </div>
                                                 <div class="iconbox-desc">
-                                                    <p>Expertos dedicados al cuidado y proteccion ocular.</p>
+                                                    <p>Expertos dedicados al cuidado y protección ocular.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -524,9 +524,12 @@
                                 </div>
                                 <div class="service-content">
                                     <div class="service-inner">
-                                        <h3 class="service-box-title"><b>Oftalmología Pediátrica</b></h3>
+                                        <h3 class="service-box-title"><b>Variedad en marcos</b></h3>
                                         <div class="service-desc">
-                                            <p>Exámenes, Cirugías, Diagnósticos, Lesiones, Recetas y Fórmulas.</p>
+                                            <p>
+                                                Gran diversidad de marcos que se ajustan a cualquier estilo ideal 
+                                                de nuestros clientes.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -545,9 +548,11 @@
                                 </div>
                                 <div class="service-content">
                                     <div class="service-inner">
-                                        <h3 class="service-box-title"><b>Procedimientos quirúrgicos</b></h3>
+                                        <h3 class="service-box-title"><b>Calidad Certificada</b></h3>
                                         <div class="service-desc">
-                                            <p>Vitrectomía, Láser y Crioterapia, Cerclaje escleral, Retinopexia neumática, etc.</p>
+                                            <p>
+                                               Lentes con la última tecnología en protección en los ojos.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -848,9 +853,6 @@
                                 <a> Lentes Transitions</a>
                             </li>
                             <li><i class="fa-solid fa-circle-check text-blue-one"></i>
-                                <a> Cirugía ocular con láser</a>
-                            </li>
-                            <li><i class="fa-solid fa-circle-check text-blue-one"></i>
                                 <a> Corrección de la visión</a>
                             </li>
                             <li><i class="fa-solid fa-circle-check text-blue-one"></i>
@@ -867,7 +869,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 address-box mt-md-30 d-md-flex justify-content-center">
                     <div>
-                        <h6 class="footer-widget-title">Encuentranos</h6>
+                        <h6 class="footer-widget-title">Encuéntranos</h6>
                         <div class="d-flex">
                             <i class="fa-solid fa-location-dot"></i>
                             <p><strong>OPTICENTER</strong>
