@@ -76,7 +76,7 @@
     {{-- TOKEN --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="{{ asset('images/logoOpticenter.PNG') }} ">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/favicon.png') }} ">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <!-- Slick -->

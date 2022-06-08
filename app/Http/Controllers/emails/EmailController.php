@@ -5,7 +5,6 @@ namespace App\Http\Controllers\emails;
 use App\Http\Controllers\Controller;
 use App\Mail\CitasMailable;
 use Illuminate\Http\Request;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Mail;
 
 class EmailController extends Controller
@@ -29,7 +28,6 @@ class EmailController extends Controller
             }
             
         } catch (\Throwable $th) {
-            return $th;
             return response('HA OCURRIDO UN ERROR', 500);
         }
                
