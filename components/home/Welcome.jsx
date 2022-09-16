@@ -25,7 +25,9 @@ const Welcome = () => {
                             No eres nada sin tus ojos,
                             <a className="opt-underline-dotted"
                                 href="https://www.masvision.es/blog/salud-visual/10-consejos-prevenir-miopia/"
-                                target="_blank">
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 protégelos
                             </a>
                             con hábitos saludables, visítanos y recibe los mejores tips y cuidados de opticenter.
@@ -33,13 +35,16 @@ const Welcome = () => {
                         <p>
                             <a className="opt-underline-dotted"
                                 href="https://www.infosalus.com/salud-investigacion/noticia-diez-consejos-cuidar-vista-20150216135142.html"
-                                target="_blank">
+                                target="_blank"
+                                rel="noreferrer"
+                                >
                                 Cuida tus ojos,
                             </a> lo hacemos por ti, para que veas y te sientas bien.</p>
                         <div className="d-none d-sm-block mt-4">
                             <a href="https://www.google.com/maps/place/Opticenter/@3.4739793,-76.495721,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a87fc3b56b2f:0x1f6deaf194d84ef5!8m2!3d3.4739793!4d-76.4935323"
                                 className="btn anim-3"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 VISÍTANOS
                             </a>

@@ -29,6 +29,7 @@ const BannerSoporte = () => {
                         <a href="https://wa.me/+573174117065?text=Quiero%20pedir%20mi%20cita"
                             className="btn btn-dark"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             Cita WhatsApp
                         </a>

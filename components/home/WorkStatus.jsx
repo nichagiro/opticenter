@@ -8,6 +8,7 @@ const WorkStatus = () => {
                     <div className="col-lg-6">
                         <div className="play-video align-items-center d-flex white-color">
                             <a
+                                rel="noreferrer"
                                 target="_blank"
                                 href="https://www.youtube.com/watch?v=smhKRoLLvDQ&list=PL5n65gEBgEz3r2V_Stvaqe9UxS87XfSOR&index=2"
                             >

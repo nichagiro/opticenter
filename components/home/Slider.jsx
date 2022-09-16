@@ -23,7 +23,7 @@ const Slider = () => {
                                         <h1 className="anim-2">Servicio que te hará <br /><strong>vernos con nuevos ojos</strong></h1>
                                         <div className="tagline anim-3 d-none d-sm-block">Brindamos siempre nuestros mejores servicios</div>
                                         <div className="d-none d-sm-block mt-4">
-                                            <a href="https://wa.me/573174117065" target="_blank" className="btn anim-3">WhatsApp </a>
+                                            <a rel="noreferrer" href="https://wa.me/573174117065" target="_blank" className="btn anim-3">WhatsApp </a>
                                         </div>
                                     </div>
                                 </div>

@@ -18,9 +18,11 @@ const Nav = () => {
                             </ul>
                             <ul className="social-icons d-inline">
                                 <li>
-                                    <a target="_blank"
+                                    <a
+                                        target="_blank"
                                         href="https://www.instagram.com/opticenteroficial/"
                                         data-tooltip="Instagram"
+                                        rel="noreferrer"
                                     >
                                         <i className="fa fa-instagram"></i>
                                     </a>

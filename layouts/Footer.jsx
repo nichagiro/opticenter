@@ -23,6 +23,7 @@ const Footer = () => {
                                             data-placement="top"
                                             data-tooltip="Instagram"
                                             target="_blank"
+                                            rel="noreferrer"
                                         >
                                             <i className="fa fa-instagram"></i>
                                         </a>
@@ -88,7 +89,13 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-sm-12 text-center">
                             Copyright © 2021
-                            <a href="https://overweb.com.co" target="_blank"> OVERWEB</a>
+                            <a
+                                rel="noreferrer"
+                                href="https://overweb.com.co"
+                                target="_blank"
+                            >
+                                OVERWEB
+                            </a>
                             . All rights reserved.
                         </div>
                     </div>
