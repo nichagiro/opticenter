@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Script strategy="beforeInteractive" src="js/jquery.min.js" />
+      {/* <Script strategy="beforeInteractive" src="js/jquery.min.js" /> */}
       <Script strategy="lazyOnload" src="js/popper.min.js" />
       <Script strategy="lazyOnload" src="js/bootstrap.min.js" />
       <Script strategy="lazyOnload" src="js/jquery-waypoints.js" />
@@ -52,7 +52,6 @@ export default function Home() {
       <Script strategy="lazyOnload" src="js/jquery.twentytwenty.js" />
       <Script strategy="lazyOnload" src="js/scripts.js" />
       <Script strategy="lazyOnload" src="https://kit.fontawesome.com/5ffca20140.js" crossOrigin="anonymous" />
-      <Script strategy="lazyOnload" src="js/forms/citas/agenda.js" />
     </>
   )
 }

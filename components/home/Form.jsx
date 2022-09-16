@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const Form = () => {
+    const form = useRef(null);
+    const onSubmit = (e) => {
+        e.preventDefault();
+        const salto = '%0A'
+        const data = new FormData(form.current);
+        const name = data.get('name')
+        const phone = data.get('phone')
+        const subject = data.get('subject')
+        const email = data.get('email')
+        const message = data.get('message')
+        const textFormatter = `*Formulario Opticenter*
+            ${salto}${salto}*Nombre:* ${name} 
+            ${salto}*Telefono:* ${phone} 
+            ${salto}*Asunto:* ${subject} 
+            ${salto}*Email:* ${email} 
+            ${salto}*Mensaje:* ${message}`
+
+        window.open(`https://wa.me/573174865702?text=${textFormatter}`)
+        form.current.reset()
+    }
     return (
         <>
             <section id="cita" className="get-appointment">
@@ -24,7 +44,7 @@ const Form = () => {
                             <h3>Nos comunicaremos con usted lo más pronto posible.</h3>
                             <p>Le avisaremos por cualquier canal de comunicación que nos suministres.</p>
                             <div className="contact-form">
-                                <form id="formy">
+                                <form id="formy" onSubmit={onSubmit} ref={form}>
                                     <div className="form-row">
                                         <div className="form-group col-lg-6">
                                             <input
@@ -43,7 +63,8 @@ const Form = () => {
                                                 type="email"
                                                 className="form-control"
                                                 placeholder="Correo Electrónico"
-                                                name="email" aria-required="true"
+                                                name="email"
+                                                aria-required="true"
                                                 required
                                                 minLength="10"
                                             />
