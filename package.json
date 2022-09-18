@@ -1,6 +1,6 @@
 {
   "name": "opticenter",
-  "main": "functions/index.js",
+  "main": "server.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {

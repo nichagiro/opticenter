@@ -1,19 +1,35 @@
 {
-  "functions": {
-    "source": "functions"
-  },
   "hosting": {
     "public": ".next",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "headers": [
+      {
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=864000"
+          }
+        ]
+      }
     ],
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "nextServer"
       }
     ]
+  },
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs16"
   }
 }
