@@ -93,6 +93,7 @@ const Footer = () => {
                                 rel="noreferrer"
                                 href="https://overweb.com.co"
                                 target="_blank"
+                                className='pl-1'
                             >
                                 OVERWEB
                             </a>

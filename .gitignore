@@ -40,6 +40,7 @@ next-env.d.ts
 
 #fireBase general
 firebaseConfig.js
+.firebase
 
 # Firebase Hosting
 .firebaserc
