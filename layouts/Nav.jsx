@@ -43,6 +43,7 @@ const Nav = () => {
                                                 type="image/webp"
                                             />
                                             <img
+                                                loading='lazy'
                                                 alt="opticenter"
                                                 src='/images/logoOpticenter.webp'
                                                 className="logo-img"

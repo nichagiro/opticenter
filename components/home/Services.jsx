@@ -22,6 +22,7 @@ const Services = () => {
                                             type="image/webp"
                                         />
                                         <img
+                                            loading='lazy'
                                             src="/images/services/service-01.webp"
                                             className="img-fluid"
                                             alt="oftamologia"
@@ -53,6 +54,7 @@ const Services = () => {
                                             type="image/webp"
                                         />
                                         <img
+                                            loading='lazy'
                                             src="/images/services/service-02.webp"
                                             className="img-fluid"
                                             alt="opticenter"
@@ -83,6 +85,7 @@ const Services = () => {
                                             type="image/webp"
                                         />
                                         <img
+                                            loading='lazy'
                                             src="/images/services/service-03.webp"
                                             className="img-fluid"
                                             alt="lentes transitions"

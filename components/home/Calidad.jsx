@@ -80,6 +80,7 @@ const Calidad = () => {
                         <picture>
                             <source srcSet="/images/01.webp" type="image/webp" />
                             <img
+                                loading='lazy'
                                 src="/images/01.webp"
                                 className="img-fluid img-shadow"
                                 alt="cuida tus ojos"

@@ -11,6 +11,7 @@ const Slider = () => {
                                 type="image/webp"
                             />
                             <img
+                                loading='lazy'
                                 className="img-fluid"
                                 src="/images/banner/banner-01.webp"
                                 alt="opticenter"
@@ -39,6 +40,7 @@ const Slider = () => {
                                 type="image/webp"
                             />
                             <img
+                                loading='lazy'
                                 className="img-fluid"
                                 src="/images/banner/banner-02.webp"
                                 alt="opticenter"

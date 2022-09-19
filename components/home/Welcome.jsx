@@ -11,6 +11,7 @@ const Welcome = () => {
                                 type="image/webp"
                             />
                             <img
+                                loading='lazy'
                                 src="/images/img-01-new.webp"
                                 className="img-fluid"
                                 alt="optometria para niños"
