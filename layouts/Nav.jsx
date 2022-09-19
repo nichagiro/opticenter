@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Nav = () => {
     return (
@@ -39,20 +38,21 @@ const Nav = () => {
                             <div className="d-flex align-items-center">
                                 <div className="site-branding flex-grow-1">
                                     <a href="/">
-                                        <Image
-                                            className="logo-img"
-                                            alt="opticenter"
-                                            src='/images/logoOpticenter.webp'
-                                            height={143}
-                                            width={467}
-                                            priority={true}
-                                        />
+                                        <picture>
+                                            <source srcSet="/images/logoOpticenter.webp"
+                                                type="image/webp"
+                                            />
+                                            <img
+                                                alt="opticenter"
+                                                src='/images/logoOpticenter.webp'
+                                                className="logo-img"
+                                            />
+                                        </picture>
                                     </a>
                                 </div>
                                 <div className="site-navigation ml-auto">
                                     <nav className="main-menu navbar-expand-xl navbar-light">
                                         <div className="navbar-header">
-                                            {/* <!-- Togg le Button --> */}
                                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                                 <span className="fa fa-bars"></span>
                                             </button>

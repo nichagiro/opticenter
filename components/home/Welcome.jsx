@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-
 
 const Welcome = () => {
     return (
@@ -8,13 +6,18 @@ const Welcome = () => {
             <div className="container">
                 <div className="row align-items-lg-center align-items-md-end">
                     <div className="col-md-12 col-lg-6">
-                        <Image
-                            src="/images/img-01-new.webp"
-                            className="img-fluid"
-                            alt="optometria para niños"
-                            height={585}
-                            width={582}
-                        />
+                        <picture>
+                            <source srcSet="/images/img-01-new.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                src="/images/img-01-new.webp"
+                                className="img-fluid"
+                                alt="optometria para niños"
+                                height={585}
+                                width={582}
+                            />
+                        </picture>
                     </div>
                     <div className="col-md-12 col-lg-6 mt-sm-30 pb-50">
                         <div className="section-title mt-md-50">
@@ -37,7 +40,7 @@ const Welcome = () => {
                                 href="https://www.infosalus.com/salud-investigacion/noticia-diez-consejos-cuidar-vista-20150216135142.html"
                                 target="_blank"
                                 rel="noreferrer"
-                                >
+                            >
                                 Cuida tus ojos,
                             </a> lo hacemos por ti, para que veas y te sientas bien.</p>
                         <div className="d-none d-sm-block mt-4">

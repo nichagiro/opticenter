@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": ".next",
+    "public": "out",
     "headers": [
       {
         "source": "**/*.@(jpg|jpeg|gif|png|svg|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
@@ -12,15 +12,12 @@
         ]
       }
     ],
-    "rewrites": [
+    "redirects": [
       {
-        "source": "**",
-        "function": "nextServer"
+        "source": "/mail",
+        "destination": "https://mail.zoho.com",
+        "type": 301
       }
     ]
-  },
-  "functions": {
-    "source": ".",
-    "runtime": "nodejs16"
   }
 }

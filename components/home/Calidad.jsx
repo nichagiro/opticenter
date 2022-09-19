@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Calidad = () => {
     return (
@@ -78,13 +77,16 @@ const Calidad = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 mt-md-30 text-md-center mb-lg-30">
-                        <Image
-                            src="/images/01.webp"
-                            className="img-fluid img-shadow"
-                            alt="cuida tus ojos"
-                            width={550}
-                            height={730}
-                        />
+                        <picture>
+                            <source srcSet="/images/01.webp" type="image/webp" />
+                            <img
+                                src="/images/01.webp"
+                                className="img-fluid img-shadow"
+                                alt="cuida tus ojos"
+                                width={550}
+                                height={730}
+                            />
+                        </picture>
                     </div>
                 </div>
             </div>

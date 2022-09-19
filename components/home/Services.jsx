@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Services = () => {
     return (
@@ -18,13 +17,18 @@ const Services = () => {
                         <div className="service-box service-style-1">
                             <div className="service-thumbnail">
                                 <div className="service-thumbnail-inner">
-                                    <Image
-                                        src="/images/services/service-01.webp"
-                                        className="img-fluid"
-                                        alt="oftamologia"
-                                        height={683}
-                                        width={1024}
-                                    />
+                                    <picture>
+                                        <source srcSet="/images/services/service-01.webp"
+                                            type="image/webp"
+                                        />
+                                        <img
+                                            src="/images/services/service-01.webp"
+                                            className="img-fluid"
+                                            alt="oftamologia"
+                                            height={683}
+                                            width={1024}
+                                        />
+                                    </picture>
                                 </div>
                             </div>
                             <div className="service-content">
@@ -44,13 +48,18 @@ const Services = () => {
                         <div className="service-box service-style-1">
                             <div className="service-thumbnail">
                                 <div className="service-thumbnail-inner">
-                                    <Image
-                                        src="/images/services/service-02.webp"
-                                        className="img-fluid"
-                                        alt="opticenter"
-                                        width={1024}
-                                        height={680}
-                                    />
+                                    <picture>
+                                        <source srcSet="/images/services/service-02.webp"
+                                            type="image/webp"
+                                        />
+                                        <img
+                                            src="/images/services/service-02.webp"
+                                            className="img-fluid"
+                                            alt="opticenter"
+                                            width={1024}
+                                            height={680}
+                                        />
+                                    </picture>
                                 </div>
                             </div>
                             <div className="service-content">
@@ -69,13 +78,18 @@ const Services = () => {
                         <div className="service-box service-style-1">
                             <div className="service-thumbnail">
                                 <div className="service-thumbnail-inner">
-                                    <Image
-                                        src="/images/services/service-03.webp"
-                                        className="img-fluid"
-                                        alt="lentes transitions"
-                                        width={1200}
-                                        height={800}
-                                    />
+                                    <picture>
+                                        <source srcSet="/images/services/service-03.webp"
+                                            type="image/webp"
+                                        />
+                                        <img
+                                            src="/images/services/service-03.webp"
+                                            className="img-fluid"
+                                            alt="lentes transitions"
+                                            width={1200}
+                                            height={800}
+                                        />
+                                    </picture>
                                 </div>
                             </div>
                             <div className="service-content">

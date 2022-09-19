@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Slider = () => {
     return (
@@ -7,14 +6,18 @@ const Slider = () => {
             <div id="Bannerslider" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <Image
-                            className="img-fluid"
-                            src="/images/banner/banner-01.webp"
-                            alt="opticenter"
-                            height={750}
-                            width={1900}
-                            priority={true}
-                        />
+                        <picture>
+                            <source srcSet="/images/banner/banner-01.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                className="img-fluid"
+                                src="/images/banner/banner-01.webp"
+                                alt="opticenter"
+                                height={750}
+                                width={1900}
+                            />
+                        </picture>
                         <div className="carousel-caption">
                             <div className="container">
                                 <div className="row">
@@ -31,13 +34,18 @@ const Slider = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <Image
-                            className="img-fluid"
-                            src="/images/banner/banner-02.webp"
-                            alt="opticenter"
-                            height={750}
-                            width={1900}
-                        />
+                        <picture>
+                            <source srcSet="/images/banner/banner-02.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                className="img-fluid"
+                                src="/images/banner/banner-02.webp"
+                                alt="opticenter"
+                                height={750}
+                                width={1900}
+                            />
+                        </picture>
                         <div className="carousel-caption">
                             <div className="container">
                                 <div className="row">
