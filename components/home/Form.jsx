@@ -18,7 +18,7 @@ const Form = () => {
             ${salto}*Email:* ${email} 
             ${salto}*Mensaje:* ${message}`
 
-        window.open(`https://wa.me/573174865702?text=${textFormatter}`)
+        window.open(`https://wa.me/573174117065?text=${textFormatter}`)
         form.current.reset()
     }
     return (
