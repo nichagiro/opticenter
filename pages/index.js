@@ -21,7 +21,7 @@ export default function Home() {
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "Opticenter",
-        "url": "https://opticenter.com.co/",
+        "url": "https://opticenter-62c87.web.app/",
         "address": "CRA 1D BIS #61A - 94",
         "sameAs": [
           "https://www.instagram.com/opticenteroficial/",
@@ -40,16 +40,16 @@ export default function Home() {
           "@type": "NewsArticle",
           "headline": "Article headline",
           "image": [
-            "https://opticenter.com.co/images/services/service-03.webp",
-            "https://opticenter.com.co/images/services/service-02.webp",
-            "https://opticenter.com.co/images/services/service-01.webp"
+            "https://opticenter-62c87.web.app/images/services/service-03.webp",
+            "https://opticenter-62c87.web.app/images/services/service-02.webp",
+            "https://opticenter-62c87.web.app/images/services/service-01.webp"
           ],
           "datePublished": "2022-02-04T22:00:00+08:00",
           "dateModified": "2022-09-17T22:00:00+08:00",
           "author": [{
             "@type": "Organization",
             "name": "Opticenter",
-            "url": "https://opticenter.com.co"
+            "url": "https://opticenter-62c87.web.app"
           }, {
             "@type": "Organization",
             "name": "Overweb",
@@ -77,20 +77,20 @@ export default function Home() {
         <meta name="language" content="es" />
         <meta name="revisit-after" content="7 days" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://opticenter.com.co/" />
+        <link rel="canonical" href="https://opticenter-62c87.web.app/" />
         <title>Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte</title>
         <link rel="shortcut icon" type="image/png" href="/images/favicon.png "></link>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte" />
         <meta name="twitter:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia." />
-        <meta name="twitter:image" content="https://opticenter.com.co/images/services/service-03.webp" />
+        <meta name="twitter:image" content="https://opticenter-62c87.web.app/images/services/service-03.webp" />
         <meta name="twitter:site" content="@Nicolas63783814" />
         <meta name="twitter:creator" content="@Nicolas63783814" />
         <meta property="og:title" content="Opticenter | Marcos | Optometria | Oftamologia | La mejor optica del norte" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://opticenter.com.co/" />
+        <meta property="og:url" content="https://opticenter-62c87.web.app/" />
         <meta property="og:site_name" content="OPTICENTER" />
-        <meta property="og:image" content="https://opticenter.com.co/images/services/service-03.webp" />
+        <meta property="og:image" content="https://opticenter-62c87.web.app/images/services/service-03.webp" />
         <meta property="og:image:alt" content="gafas opticenter" />
         <meta property="og:description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia." />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSeoSocials()} />
