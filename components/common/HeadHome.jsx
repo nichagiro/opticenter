@@ -57,7 +57,7 @@ const HeadHome = () => {
       <meta charSet="utf-8" />
       <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="keywords" content="maquillaje, cosmeticos, productos de belleza, regalos de maquillaje, cuidado de la piel, maquillaje para niñas, maquillaje de ojos, maquillaje sencillo, productos de maquillaje" />
+      <meta name="keywords" content="Marcos para gafas, Optica, La mejor optica del norte, Opticenter, Optometria avanzada, Cuidado de los ojos" />
       <meta name="description" content="Opticenter la mejor optica del norte, gafas y lentes medicados, examen ocular gratuito, marcos de todo tipo y al mejor estilo, oftometria y oftalmologia." />
       <meta name="subject" content="Lentes" />
       <meta name="author" content="Nicolas Chamorro" />
