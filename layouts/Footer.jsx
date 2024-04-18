@@ -68,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="d-flex">
                 <i className="fa-solid fa-envelope"></i>
-                <p>info@opticenter.com</p>
+                <p>opticenter3n@hotmail.com</p>
               </div>
               <div className="d-flex">
                 <i className="fa-solid fa-clock"></i>
